@@ -154,8 +154,8 @@ header {
 }
 
 .testimonial-card:hover{
-  transform: translateY(-30px);
-  transition: all 0.3s linear;
+  transform: translateY(-10px);
+  transition: transform 0.3s ease-in-out;
   cursor: pointer;
 }
 
@@ -588,4 +588,10 @@ header {
   .testimonial-card {
     width: 100%;
   }
+}
+
+@media (max-width: 768px) {
+ .testimonial-arrow-img {
+  object-fit: contain;
+ }
 }
